@@ -10,3 +10,26 @@ Markdown is een relatief simpel formaat met als doel leesbaarheid. De voorbeelde
 
 ## JSON
 
+JSON is een taalonafhankelijk formaat en wordt veel gebruikt om data te versturen en ontvangen vanuit een web-gebaseerde API. Dit dataformaat bestaat altijd uit een key en een value. De key is een string en staat tussen aanhalingstekens en de value kan o.a. een getal, string (begrensd door aanhalingstekens) of array (begrensd door nietjes) zijn.
+
+In het eerste voorbeeld (de Corona Dataset) is ‘date’ een key, met ‘2020-02-07’ als zijn string value. In dit voorbeeld zie je een array van objecten, terwijl het tweede voorbeeld samengestelde objecten heeft.
+
+## XML
+
+XML wordt ook vaak gebruikt om gegevens uitwisselen tussen systemen en gebruikt elementen en attributen om de gegevens te structuren. In het voorbeeld is een menukaart te zien, waarbij elk gerecht zijn eigen prijs, omschrijving en aantal calorieën heeft. Er zijn een aantal dingen die opvallen:  
+* Elk element heeft een opening tag en closing tag.
+* Alles tussen de opening en closing tag is de content.
+* Een element kan attributen hebben (in het tweede voorbeeld: name en location).
+
+## SVG
+
+SVG is een vectorbestand, waarbij de verhoudingen en afstanden tot allerlei objecten worden vastgelegd. Het is, net zoals JPG en PNG, een bestandsformaat, maar wel in XML opgemaakt. De voorbeelden beschrijven onder andere de grootte en kleur van de ‘tekeningen’.
+
+## YAML
+
+YAML wordt o.a. gebruikt voor configuratiebestanden en internetberichten. Bij YAML worden veel witruimtes gebruikt om structuur aan te geven. Dingen die opvallen in de voorbeelden:
+* Documenten beginnen of worden gescheiden door drie streepjes en documenten eindigen met drie puntjes.
+* Opmerkingen kunnen worden toegevoegd met een hekje.
+* Strings hebben aanhalingstekens.
+* Een ‘|’ zorgt er voor dat er witruimtes blijven, een ‘>’ haalt de witruimtes weg.
+
